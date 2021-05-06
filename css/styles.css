@@ -11,8 +11,8 @@
 
 /* ---- Base Rules ---- */
 body {
-    background: rgb(136,203,171);
-    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    background-image: url('./../img/flat-design-background-mountain-vector-22343602.jpg ');
+    background-attachment: fixed;
     margin: 0;
     font-family: cursive, 'Merriweather', serif;
     color: #fff;
@@ -21,20 +21,21 @@ body {
 
 /* Typeography General*/
 h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3em;
+    color: #3498db;
+    font-family:cursive,  'Fira Sans', sans-serif;
+    font-size: 2em;
     margin: 2em 1rem;
 }
 
 @media only screen and (min-width: 35em){
     h1 {
-        font-size: 7em;
+        font-size: 6em;
         margin: 2em 4rem 1em;
     }
 }
 
 h2 {
-    border-bottom: 1px solid #cc1;
+    border-bottom: 2px solid #cc1;
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
@@ -79,12 +80,12 @@ section {
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #f1c40f;
+    color: #3498db;
 }
 
 .navbar__menu .menu__link:hover, .linkActive{
-    background: #333;
-    color: #fff;
+    background: #3498db;
+    color: #fff!important;
     transition: ease 0.3s all;
 }
 
@@ -99,7 +100,7 @@ section {
 
 /* Footer Styles */
 .page__footer {
-    background: #000;
+    background:#e67e22;
     padding: 3em;
     color: #fff;
 }
@@ -194,7 +195,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* Section Active Styles */
 /* Note: your-activeClass class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.active-class {
-    background-color: crimson;
+    background-color: #2ecc71;
     transition: all .5s ease-in ;
 }
 
@@ -245,15 +246,16 @@ section.active-class .landing__container::after {
 .noDisplay{
     display: none;
 }
-.btn{ color: #f1c40f;
+.btn{ color: #9b59b6;
     padding: 10px;
-    border: 2px solid #f1c40f;
+    border: 2px solid #9b59b6;
     border-radius: 5px;
     font-size: 19px;
     text-transform: capitalize;
     font-weight: 600;
     font-family: system-ui;
     background-color: #fff;
+    margin-left: 93px;
 }
 .btn:hover{
     cursor: pointer;
